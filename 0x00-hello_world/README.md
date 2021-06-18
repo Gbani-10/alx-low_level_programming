@@ -1,1 +1,1 @@
-# This directory contains the tasks on C-programming
+This directory contains the tasks on C-programming
