@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- *return: Always 0 (success)
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -14,17 +14,15 @@ int main(void)
 	 {
          putchar (i/10 + '0');
 	 putchar (i % 10 + '0');
-         putchar (' ');
+         putchar ('');
 	 putchar (j / 10 + '0');
 	 putchar (j % 10 + '0');
 	 if (i==98 && j==99)
 	 {
          break;
          }
-         putchar (' ');
-         putchar (' ')
+         putchar (',');
+         putchar ('');
          putchar ('\n');
 return (0);
 }
-	    
-	  
