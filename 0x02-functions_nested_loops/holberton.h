@@ -1,2 +1,2 @@
 #inlude <stdio.h>
-int_putchar(char c);
+int _putchar(char c);
