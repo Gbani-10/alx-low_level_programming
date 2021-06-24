@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <math.h>
+#include "holberton.h"
 /**
  * main - finds and prints the largest prime factor of the number 612852475143
  * followed by a new line
@@ -29,29 +28,4 @@ int main(void)
 		max = n;
 	printf("%ld\n", max);
 	return (0);
-}
-12:15
-Task #12 solution
-12:15
-#include "holberton.h"
-/**
- * print_number - prints an integer
- * @n: integer to be printed
- */
-void print_number(int n)
-{
-	unsigned int n1;
-	if (n < 0)
-	{
-		n1 = -n;
-		_putchar('-');
-	} else
-	{
-		n1 = n;
-	}
-	if (n1 / 10)
-	{
-		print_number(n1 / 10);
-	}
-	_putchar((n1 % 10) + '0');
 }
